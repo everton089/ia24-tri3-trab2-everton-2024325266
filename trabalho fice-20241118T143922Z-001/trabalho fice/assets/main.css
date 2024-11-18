@@ -1,0 +1,45 @@
+
+div.triangulo_g{
+    width: 90vw;
+    border-left: 200vw solid transparent;
+    border-top: 5vw solid #34db58;
+}
+
+div.triangulo_gf{
+    width: 95vw; 
+    border-left: 200vw solid transparent;
+    border-top: 5vw solid rgb(0, 62, 0);
+}
+nav{
+    display: flex;
+}
+nav img{
+    height: 5vw;
+    width: 15vw;
+}
+img.logo_IF{
+margin-right: 55vw;
+margin-left: 5vw;
+
+}
+img.logo_FICE{
+    margin-right: 5vw;
+}
+footer{
+    text-align: center;
+}
+main{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 600px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+      }
+      
+}
